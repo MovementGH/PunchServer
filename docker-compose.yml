@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+    PunchServer:
+        image: "punch-server"
+        restart: on-failure
+        build:
+            context: .
